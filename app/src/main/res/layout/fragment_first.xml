@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bsv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSV 1"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:background="#6200EE"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/bsv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSV 2"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:background="#6200EE"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:focusableInTouchMode="true"
+
+        />
+    <TextView
+        android:id="@+id/bsv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSV 3"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="24sp"
+        android:background="#6200EE"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/bsv_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSV 4"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="24sp"
+        android:background="#6200EE"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/bsv_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSV 5"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="24sp"
+        android:background="#6200EE"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
