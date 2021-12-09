@@ -33,7 +33,7 @@ class MainActivity2 : AppCompatActivity() {
         val data = ArrayList<ItemsViewModel>()
 
         for (i in 1..30) {
-            data.add(ItemsViewModel( value*i,i,"Normal" ))
+            data.add(ItemsViewModel( value*i*i,value,"Normal" ))
         }
         // This will pass the ArrayList to our Adapter
         val adapter = CustomAdapter(data)

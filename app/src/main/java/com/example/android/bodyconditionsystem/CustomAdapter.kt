@@ -37,7 +37,7 @@ class CustomAdapter(private val dataSet: List<ItemsViewModel>) :
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
         viewHolder.textViewTagNumber.text = "Tag Number: " + ItemsViewModel.tagNumber.toString()
-        viewHolder.textViewOverallBSV.text = "Overall BCv: " + ItemsViewModel.overallBCS.toString()
+        viewHolder.textViewOverallBSV.text = "Overall BSV: " + ItemsViewModel.overallBCS.toString()
         viewHolder.textViewFeed.text = "Feed: "+ ItemsViewModel.feed
 
     }
